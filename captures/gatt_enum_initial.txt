@@ -1,0 +1,68 @@
+﻿Connecting to DC:68:DA:B2:EE:05 ...
+Connected: True
+
+[service] 00001800-0000-1000-8000-00805f9b34fb  (Generic Access Profile)
+  [char] 00002a00-0000-1000-8000-00805f9b34fb  handle=0x0002  props=[write,read]  (Device Name)
+        value: 444d586361745f363030303232373239  |DMXcat_600022729|
+  [char] 00002a01-0000-1000-8000-00805f9b34fb  handle=0x0004  props=[read]  (Appearance)
+        value: 0000  |..|
+  [char] 00002a04-0000-1000-8000-00805f9b34fb  handle=0x0006  props=[read]  (Peripheral Preferred Connection Parameters)
+        value: 0c00180000009001  |........|
+  [char] 00002aa6-0000-1000-8000-00805f9b34fb  handle=0x0008  props=[read]  (Central Address Resolution)
+        value: 01  |.|
+
+[service] 00001801-0000-1000-8000-00805f9b34fb  (Generic Attribute Profile)
+  [char] 00002a05-0000-1000-8000-00805f9b34fb  handle=0x000b  props=[indicate]  (Service Changed)
+      [desc] 00002902-0000-1000-8000-00805f9b34fb  handle=0x000d  value=0200 |..|
+
+[service] 0000180a-0000-1000-8000-00805f9b34fb  (Device Information)
+  [char] 00002a29-0000-1000-8000-00805f9b34fb  handle=0x000f  props=[read]  (Manufacturer Name String)
+        value: 43697479205468656174726963616c2c20496e632e  |City Theatrical, Inc.|
+  [char] 00002a24-0000-1000-8000-00805f9b34fb  handle=0x0011  props=[read]  (Model Number String)
+        value: 36303030  |6000|
+  [char] 00002a25-0000-1000-8000-00805f9b34fb  handle=0x0013  props=[read]  (Serial Number String)
+        value: 363030303232373239  |600022729|
+  [char] 00002a26-0000-1000-8000-00805f9b34fb  handle=0x0015  props=[read]  (Firmware Revision String)
+        value: 312e342e312e392e302e313638  |1.4.1.9.0.168|
+  [char] 00002a28-0000-1000-8000-00805f9b34fb  handle=0x0017  props=[read]  (Software Revision String)
+        value: 312e352e302e392e302e3134  |1.5.0.9.0.14|
+
+[service] 0000180f-0000-1000-8000-00805f9b34fb  (Battery Service)
+  [char] 00002a19-0000-1000-8000-00805f9b34fb  handle=0x001a  props=[notify,read]  (Battery Level)
+        value: 64  |d|
+      [desc] 00002902-0000-1000-8000-00805f9b34fb  handle=0x001c  value=0000 |..|
+
+[service] 00001802-0000-1000-8000-00805f9b34fb  (Immediate Alert)
+  [char] 00002a06-0000-1000-8000-00805f9b34fb  handle=0x001e  props=[write-without-response]  (Alert Level)
+
+[service] c171b007-8000-0010-8000-00805f9bc171  (Unknown)
+  [char] c171b017-8000-0010-8000-00805f9bc171  handle=0x0021  props=[write,indicate]  (Unknown)
+      [desc] 00002902-0000-1000-8000-00805f9b34fb  handle=0x0023  value=0000 |..|
+  [char] c171b207-8000-0010-8000-00805f9bc171  handle=0x0024  props=[write-without-response]  (Unknown)
+  [char] c171b107-8000-0010-8000-00805f9bc171  handle=0x0026  props=[notify,write]  (Unknown)
+      [desc] 00002902-0000-1000-8000-00805f9b34fb  handle=0x0028  value=0000 |..|
+
+[service] c171c100-8000-0010-8000-00805f9bc171  (Unknown)
+  [char] c171c101-8000-0010-8000-00805f9bc171  handle=0x002a  props=[notify,write,read,write-without-response]  (Unknown)
+        value: 0000000000  |.....|
+      [desc] 00002902-0000-1000-8000-00805f9b34fb  handle=0x002c  value=0000 |..|
+  [char] c171c102-8000-0010-8000-00805f9bc171  handle=0x002d  props=[notify,read,write-without-response]  (Unknown)
+        value: 01  |.|
+      [desc] 00002902-0000-1000-8000-00805f9b34fb  handle=0x002f  value=0000 |..|
+  [char] c171c103-8000-0010-8000-00805f9bc171  handle=0x0030  props=[write,write-without-response]  (Unknown)
+  [char] c171c104-8000-0010-8000-00805f9bc171  handle=0x0032  props=[write,write-without-response]  (Unknown)
+  [char] c171c105-8000-0010-8000-00805f9bc171  handle=0x0034  props=[write,indicate]  (Unknown)
+      [desc] 00002902-0000-1000-8000-00805f9b34fb  handle=0x0036  value=0000 |..|
+  [char] c171c106-8000-0010-8000-00805f9bc171  handle=0x0037  props=[notify,write,indicate]  (Unknown)
+      [desc] 00002902-0000-1000-8000-00805f9b34fb  handle=0x0039  value=0000 |..|
+  [char] c171c107-8000-0010-8000-00805f9bc171  handle=0x003a  props=[notify,write]  (Unknown)
+      [desc] 00002902-0000-1000-8000-00805f9b34fb  handle=0x003c  value=0000 |..|
+  [char] c171c108-8000-0010-8000-00805f9bc171  handle=0x003d  props=[notify]  (Unknown)
+      [desc] 00002902-0000-1000-8000-00805f9b34fb  handle=0x003f  value=0000 |..|
+  [char] c171c109-8000-0010-8000-00805f9bc171  handle=0x0040  props=[write,indicate]  (Unknown)
+      [desc] 00002902-0000-1000-8000-00805f9b34fb  handle=0x0042  value=0000 |..|
+  [char] c171c10a-8000-0010-8000-00805f9bc171  handle=0x0043  props=[write,indicate]  (Unknown)
+      [desc] 00002902-0000-1000-8000-00805f9b34fb  handle=0x0045  value=0000 |..|
+  [char] c171c10b-8000-0010-8000-00805f9bc171  handle=0x0046  props=[write]  (Unknown)
+  [char] c171c10e-8000-0010-8000-00805f9bc171  handle=0x0048  props=[write]  (Unknown)
+
